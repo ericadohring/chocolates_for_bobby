@@ -1,6 +1,6 @@
 # Order Processor for a fictional small business Bobby's Chocolates
 
-A lightweight CLI order processor for Bobby's Chocolates.
+A lightweight CLI order processor for fictional business "Bobby's Chocolates."
 
 _Input_: CSV file. Each line represents an order
 ```
@@ -67,13 +67,13 @@ Auto
 ### Future Work 
 
 Readability
-* Consider looking to see if Python has a testing library like rspec with describe, etc blocks instead of long names 
-* Give pycodestyle linting instructions for all files not just 1 at a time
-* Add the linting and testing to a pre-commit hook
-* Consider dockerizing the setup
+* Consider looking to see if Python has a testing library like rspec with describe, etc blocks instead of long names.
+* Give pycodestyle linting instructions for all files (not just 1 at a time).
+* Add the linting and testing to a pre-commit hook.
+* Consider dockerizing the setup.
 * Figure out why autopep8 isn't fixing line length lints - would like the two to agree.
-* My tabs and spaces may be mixed - not sure if autopep8 covers that
-* Change order.get_string_output to __str__ (I believe this would be more canonical)
+* My tabs and spaces may be mixed - not sure if autopep8 covers that.
+* Change order.get_string_output to __str__ (This would be more canonical).
 
 Refactorability
 * Consider adding typing to make refactoring easier
